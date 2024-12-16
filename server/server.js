@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: "https://tm-client-6ikt.onrender.com",
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
